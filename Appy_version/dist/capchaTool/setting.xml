@@ -1,0 +1,17 @@
+<invoice>
+  <xpath_selector>
+    <capcha_img>//*[@id="demoCaptcha_CaptchaImage"]</capcha_img>
+    <capcha_box>//*[@id="captchaCode"]</capcha_box>
+    <button>//*[@id="validateCaptchaButton"]</button>
+      <title>//*[@id="validationResult"]/span</title>
+  </xpath_selector>
+  <variable>
+    <web_link>https://captcha.com/demos/features/captcha-demo.aspx</web_link>
+    <input_svg>capcha.svg</input_svg>
+    <output_png>capcha.png</output_png>
+    <json_file>trackFile.json</json_file>
+    <json_out>invoice_out.json</json_out>
+    <db_location>Database.accdb</db_location>
+    <json_sel_month>RunningParameter.json</json_sel_month>
+</variable>
+</invoice>
